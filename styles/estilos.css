@@ -1,0 +1,105 @@
+*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+}
+
+body{
+        background-color: rgb(228, 228, 192);
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        color: rgb(86, 84, 84);
+}
+
+header{
+        background-color: rgb(194, 208,135 );
+        /* flex-direction: row; */
+        display: flex;
+        /* position: sticky; */
+        justify-content: space-around;
+        /* top: 0; */
+}
+.navegacion{
+        display: flex;
+        justify-content: space-evenly;
+        align-items:  center;
+        width: 90px;
+        height: 50px;
+        
+}
+
+
+.navegacion ul{
+        display: flex;
+        
+}
+
+.navegacion ul li{
+        width: 200px; 
+        height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content:space-between;
+        justify-content: space space-evenly;
+
+  }
+
+.navegacion a{
+        font-size: 15px;
+        color: rgb(86, 84, 84);
+ }
+
+.navegacion a:hover{
+        font-size: 17px;
+        font-style: bold;
+        color: rgb(41, 39, 39)
+        
+}
+
+
+ footer{
+        background-color: rgb(194, 208,135 );
+         display: flex;
+        flex-direction: row;
+        align-content:flex-end;
+        top: 0;
+        width:100%;
+        height: 100%;
+     } 
+  
+
+.shampoo, .blog, .acond, .tratamiento{
+        height: 600px;
+        width: 600px;
+        border: 2px solid rgb(128, 128, 128);
+}
+
+
+form{
+        padding: 10px 10px 10px 20px;
+}
+
+
+.fb, .ig, .pint{
+        color: rgb(86, 84, 84);
+        padding:20px;
+}
+
+.fb:hover, .ig:hover, .pint:hover{
+        color: rgb(41, 39, 39)
+}
+
+#enviar, #cancelar{
+        background-color: rgb(194, 208,135 );
+        font-size: 15px;
+
+}
+
+#enviar:hover, #cancelar:hover{
+        font-size: 16px;
+        /* font-style: bold; */
+        background-color: rgb(41, 39, 39);
+        color: rgb(194, 208,135 );
+        
+}
