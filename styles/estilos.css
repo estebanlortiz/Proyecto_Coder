@@ -182,7 +182,7 @@ form{
                 "aside texto_blog aside"
                 "footer footer footer";
         grid-template-rows: 8% 8% 37% 37% 10%;
-        grid-template-columns: 30% 40% 30%;
+        grid-template-columns: 20% 60% 20%;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
 }
