@@ -9,18 +9,16 @@
 body{
         background-color: rgb(228, 228, 192);
         font-family: Verdana, Geneva, Tahoma, sans-serif ;
-        font-size: 13px;
         color: rgb(86, 84, 84);
-        
 }
 
 header{
         background-color: rgb(194, 208,135 );
+        /* flex-direction: row; */
         display: flex;
-        font-size: 18px;
+        /* position: sticky; */
         justify-content: space-around;
-        grid-area: header;
-                     
+        /* top: 0; */
 }
 .navegacion{
         display: flex;
@@ -34,17 +32,16 @@ header{
 
 .navegacion ul{
         display: flex;
-}
         
-      
+}
+
 .navegacion ul li{
-        width: 150px; 
+        width: 200px; 
         height: 20px;
         display: flex;
         flex-wrap: wrap;
         align-content:space-between;
-        justify-content:space-evenly;
-        
+        justify-content: space space-evenly;
 
   }
 
@@ -54,9 +51,9 @@ header{
  }
 
 .navegacion a:hover{
+        font-size: 17px;
         font-style: bold;
-        text-decoration: underline;
-        color: rgb(113, 39, 182);
+        color: rgb(41, 39, 39)
         
 }
 
@@ -69,20 +66,13 @@ header{
         top: 0;
         width:100%;
         height: 100%;
-        grid-area: footer;
      } 
   
 
 .shampoo, .blog, .acond, .tratamiento{
-        height: 300px;
-        width: 300px;
-        margin: 10px;
-        border: 2px solid rgb(176, 175, 175)
-        #000000;
-}
-
-.shampoo:hover, .blog:hover, .acond:hover, .tratamiento:hover{
-   border: 2px solid rgb(0,0,0);
+        height: 600px;
+        width: 600px;
+        border: 2px solid rgb(128, 128, 128);
 }
 
 
@@ -97,7 +87,7 @@ form{
 }
 
 .fb:hover, .ig:hover, .pint:hover{
-        color: rgb(113, 39, 182);
+        color: rgb(41, 39, 39)
 }
 
 #enviar, #cancelar{
@@ -112,93 +102,4 @@ form{
         background-color: rgb(41, 39, 39);
         color: rgb(194, 208,135 );
         
-}
-
-#foto1{
-        grid-area: foto1;
-}
-
-#foto2{
-        grid-area: foto2;
-}
-
-#txt1{
-        grid-area: txt1;
-}
-
-#txt2{
-        grid-area:txt2; 
-}
-
-#grilla_idx{
-        display: grid;
-        grid-template-areas:
-                "header header header"
-                "foto1 txt1 txt1"
-                "txt2 txt2 foto2"
-                "footer footer footer";
-        grid-template-rows: 8% 44% 44% 10%;
-        grid-template-columns: 30% 40% 30%;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-}
-
-.border{
-        border: 1px solid rgb(101, 98, 98);
-}
-
-#grilla_idx footer{
-        /* justify-items: center; 
-        align-items: center; */
-        justify-content: center;
-        align-content: center;
-}
-
-.logo{
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: left;
-        justify-content: left;
-        font-size: 30px;
-        font-style: oblique;
-        color: rgb(113, 39, 182);
-                
-} 
-
-.logo:hover{
-        font-size: 30px;
-        font-style: oblique;
-        color: rgb(101, 98, 98);
-                
-}
-
-#grilla_blog{
-        display: grid;
-        grid-template-areas:
-                "header header header"
-                "titulo titulo titulo"
-                "aside foto_blog aside"
-                "aside texto_blog aside"
-                "footer footer footer";
-        grid-template-rows: 8% 8% 37% 37% 10%;
-        grid-template-columns: 30% 40% 30%;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-}
-
-#titulo{
-        grid-area: titulo;
-}
-
-#foto_blog{
-        grid-area: foto_blog;
-}
-
-#texto_blog{
-        grid-area:testo_blog;
-}
-
-#aside{
-        grid-area: aside; 
 }
