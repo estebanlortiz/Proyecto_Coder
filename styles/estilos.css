@@ -173,16 +173,15 @@ form{
                 
 }
 
-#grilla_blog{
+/* #grilla_blog{
         display: grid;
         grid-template-areas:
                 "header header header"
-                "titulo titulo titulo"
-                "aside foto_blog aside" 
-                "aside texto_blog aside"
+                "texto_blog texto_blog foto_blog" 
+                "foto_blog2 texto_blog2 texto_blog2"
                 "footer footer footer";
-        grid-template-rows: 8%  8% 10% 37% 37% 10%;
-        grid-template-columns: 20% 20% 40% 20%;
+        grid-template-rows: 8% 44% 44% 10%;
+        grid-template-columns: 30% 40% 30%;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
 }
@@ -195,10 +194,14 @@ form{
         grid-area: foto_blog;
 }
 
-#texto_blog{
-        grid-area:testo_blog;
+#texto_blog2{
+        grid-area:texto_blog;
 }
 
-#aside{
-        grid-area: aside; 
+#foto_blog2{
+        grid-area: foto_blog;
 }
+
+#texto_blog{
+        grid-area:texto_blog;
+} */
