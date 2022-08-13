@@ -116,14 +116,17 @@ form{
 
 #foto1{
         grid-area: foto1;
+        object-fit: contain;
 }
 
 #foto2{
         grid-area: foto2;
+        object-fit: contain;
 }
 
 #txt1{
         grid-area: txt1;
+       
 }
 
 #txt2{
@@ -144,7 +147,7 @@ form{
 }
 
 .border{
-        border: 1px solid rgb(101, 98, 98);
+        border: 1px solid rgb(178, 171, 171);
 }
 
 #grilla_idx footer{
@@ -173,35 +176,40 @@ form{
                 
 }
 
-/* #grilla_blog{
+#foto_sh1{
+        grid-area: foto1;
+        object-fit: contain;
+}
+
+#foto_sh2{
+        grid-area: foto2;
+        object-fit: contain;
+}
+
+#txt_sh1{
+        grid-area: txt1;
+       
+}
+
+#txt_sh2{
+        grid-area:txt2; 
+}
+
+#titulo_sh{
+
+        grid-area: titulo_sh;
+}
+
+#grilla_sh{
         display: grid;
         grid-template-areas:
                 "header header header"
-                "texto_blog texto_blog foto_blog" 
-                "foto_blog2 texto_blog2 texto_blog2"
+                "titulo_sh titulo_sh titulo_sh"
+                "foto_sh1 txt_sh1 txt_sh1"
+                "txt_sh2 txt_sh2 foto_sh2"
                 "footer footer footer";
-        grid-template-rows: 8% 44% 44% 10%;
+        grid-template-rows: 8% 8% 10% 10% ;
         grid-template-columns: 30% 40% 30%;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
 }
-
-#titulo{
-        grid-area: titulo;
-}
-
-#foto_blog{
-        grid-area: foto_blog;
-}
-
-#texto_blog2{
-        grid-area:texto_blog;
-}
-
-#foto_blog2{
-        grid-area: foto_blog;
-}
-
-#texto_blog{
-        grid-area:texto_blog;
-} */
