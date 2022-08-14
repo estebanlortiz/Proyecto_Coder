@@ -183,3 +183,17 @@ p{
         margin: 2px, 2px,2px, 2px
 }
 
+@media screen and (max-width: 390px) {
+        #grilla_idx{
+                grid-template-columns: 1f;
+                grid-template-areas:
+                        "header header header"
+                        "foto1 foto1 foto1"
+                        "txt1 txt1 txt1"
+                        "foto2 foto2 foto2"
+                        "txt2 txt2 txt2"
+                        "footer footer footer";
+         }
+         font-size: 10px;
+}
+        
