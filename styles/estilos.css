@@ -17,7 +17,7 @@ body{
 header{
         background-color: rgb(194, 208,135 );
         display: flex;
-        font-size: 18px;
+        font-size: 1.125em;
         justify-content: space-around;
         grid-area: header;
                      
