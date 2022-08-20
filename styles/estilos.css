@@ -7,7 +7,7 @@
 }
 
 body{
-        background-color: rgb(228, 228, 192);
+        background-image: linear-gradient(to right,  rgb(228, 228, 192),rgb(150, 150, 135));
         font-family: Verdana, Geneva, Tahoma, sans-serif ;
         font-size: 13px;
         color: rgb(86, 84, 84);
@@ -60,6 +60,10 @@ header{
         
 }
 
+.navegacion a:active{
+        font-weight: bold;
+}
+
 
  footer{
         background-color: rgb(194, 208,135 );
@@ -81,10 +85,15 @@ header{
         max-height: 350px;
         height: 90%;
         width: 90%;
+        transition: height 2s, width 2s;
 }
 
 .shampoo:hover, .blog:hover, .acond:hover, .tratamiento:hover, .index:hover{
    border: 2px solid rgb(0,0,0);
+   max-width: 800px;
+   max-height: 400px;
+   height: 100%;
+   width: 100%;
 }
 
 
@@ -186,13 +195,19 @@ form{
         flex-direction: column;
         align-content: left;
         justify-content: left;
-        font-size: 30px;
+        /* font-size: 30px;
         font-style: oblique;
-        color: rgb(113, 39, 182);
+        color: rgb(113, 39, 182); */
+        animation-name: efecto_logo;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 5s;
+        animation-delay: 0s;
                 
 } 
 
 .logo:hover{
+        /* transform: rotate(22.5deg); */
         font-size: 30px;
         font-style: oblique;
         color: rgb(101, 98, 98);
@@ -214,4 +229,33 @@ p{
         "txt2 txt2 txt2"
         "footer footer footer";
   }
+}
+
+@keyframes efecto_logo{
+        0%{
+                font-size: 30px;
+                font-style: oblique;
+                color: rgb(101,98,98);
+        }
+        25%{
+                font-size: 35px;
+                font-style: oblique;
+                color:  rgb(113, 39, 182);
+        }
+        50%{
+                font-size: 30px;
+                font-style: oblique;
+                color: rgb(101,98,98);
+        }
+        75%{
+                font-size: 35px;
+                font-style: oblique;
+                color:  rgb(113, 39, 182);
+        }
+        100%{
+                font-size: 30px;
+                font-style: oblique;
+                color: rgb(101,98,98);
+        }
+        
 }
