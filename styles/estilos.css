@@ -111,24 +111,27 @@ form{
         color: rgb(113, 39, 182);
 }
 
-#enviar, #cancelar{
+.btn-primary{
         background-color: rgb(194, 208,135 );
+        color: rgb(86, 84, 84);
         font-size: 15px;
+        border-color: rgb(86, 84, 84);
 
 }
 
-#enviar:hover, #cancelar:hover{
-        font-size: 16px;
-        /* font-style: bold; */
-        background-color: rgb(41, 39, 39);
+.btn-primary:hover{
+        
+        font-weight: bold;
+        background-color: rgb(113, 39, 182);
         color: rgb(194, 208,135 );
+        
         
 }
 
 #foto1{
         grid-area: foto1;
         display: flex;
-        object-fit: contain;
+        object-fit:cover;
         align-items: center;
         justify-content: center;
 }
