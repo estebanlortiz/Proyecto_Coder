@@ -14,6 +14,12 @@ body{
         
 }
 
+h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        font-size: 20px;     
+        font-weight: bold;
+}
+
 header{
         background-color: rgb(194, 208,135 );
         display: flex;
@@ -109,6 +115,7 @@ form{
 
 .fb:hover, .ig:hover, .pint:hover{
         color: rgb(113, 39, 182);
+        font-weight: bold;
 }
 
 .btn-primary{
@@ -116,6 +123,8 @@ form{
         color: rgb(86, 84, 84);
         font-size: 15px;
         border-color: rgb(86, 84, 84);
+        width: 100px;
+        height: 40px;
 
 }
 
