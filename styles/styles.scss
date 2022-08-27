@@ -6,9 +6,10 @@
     text-decoration: none;
 }
 
-@import "./partials/variables";
-@import "./partials/keyframes";
-@import "./partials/mediascr";
+@import
+ "./partials/variables",
+ "./partials/keyframes",
+ "./partials/mediascr";
 
 body{
     background-image: $color_body;
@@ -115,6 +116,9 @@ form{
     border-color: $color_link;
     width: 100px;
     height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
     &:hover{
         font-weight: bold;
         background-color: $color_link_hv;
