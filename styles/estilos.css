@@ -250,7 +250,7 @@ p{
                 color: rgb(101,98,98);
         }
         25%{
-                font-size: 35px;
+                font-size: 32px;
                 font-style: oblique;
                 color:  rgb(113, 39, 182);
         }
@@ -260,12 +260,12 @@ p{
                 color: rgb(101,98,98);
         }
         75%{
-                font-size: 35px;
+                font-size: 32px;
                 font-style: oblique;
                 color:  rgb(113, 39, 182);
         }
         100%{
-                font-size: 30px;
+                font-size: 32px;
                 font-style: oblique;
                 color: rgb(101,98,98);
         }
