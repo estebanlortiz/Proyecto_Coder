@@ -1,0 +1,11 @@
+%flex_nv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:  center;
+}
+
+%flex_ft{
+    display: flex;
+    flex-direction: row;
+    align-content:flex-end;
+}
