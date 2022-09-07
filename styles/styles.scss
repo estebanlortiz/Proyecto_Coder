@@ -22,10 +22,11 @@ body{
 }
 
 h2{
-    font-family: map-get($estilos,$font);
-    font-size: 20px;     
-    font-weight: bold;
+     font-family: map-get($estilos,$font);
+     font-size: 20px;     
+     font-weight: bold;
 }
+
 
 header{
     background-color: map-get($estilos,$color_hd_ft);
@@ -35,6 +36,7 @@ header{
     grid-area: header;
                  
 }
+
 .navegacion{
     @extend %flex_nv;
     width: 90px;
