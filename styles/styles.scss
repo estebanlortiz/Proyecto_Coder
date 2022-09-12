@@ -7,29 +7,29 @@
 }
 
 @import
-"./partials/extend",
-"./partials/maps",
+"./partials/variables",
 "./partials/mixin",
- "./partials/keyframes",
+"./partials/extend",
+"./partials/keyframes",
  "./partials/mediascr";
 
 body{
-    background-image: map-get($estilos,$color_body);
-    font-family: map-get($estilos,$font);
+    background-image: map-get($estilos,color_body);
+    font-family: map-get($estilos,font);
     font-size: 13px;
-    color: map-get($estilos,$color_link);
+    color: map-get($estilos,color_link);
     
 }
 
 h2{
-     font-family: map-get($estilos,$font);
+     font-family: map-get($estilos,font);
      font-size: 20px;     
      font-weight: bold;
 }
 
 
 header{
-    background-color: map-get($estilos,$color_hd_ft);
+    background-color: map-get($estilos,color_hd_ft);
     display: flex;
     font-size: 1.125em;
     justify-content: space-around;
@@ -56,11 +56,11 @@ header{
     a{
         font-size: 15px;
         font-weight: bold;
-        color: map-get($estilos,$color_link);
+        color: map-get($estilos,color_link);
         &:hover{
             font-weight: bold;
             text-decoration: underline;
-            color: map-get($estilos,$color_link_hv);
+            color: map-get($estilos,color_link_hv);
         }
        }
 }
@@ -69,7 +69,7 @@ header{
   
 
 footer{
-    background-color: $color_hd_ft;
+    background-color: map-get($estilos,color_hd_ft);
     @extend %flex_ft;
     top: 0;
     width:100%;
@@ -80,18 +80,18 @@ footer{
 
 .shampoo, .blog, .acond, .tratamiento, .index{
     margin: 10px;
-    border: 2px solid $color_brd;
+    border: 2px solid map-get($estilos,color_brd);
     max-width: 700px;
     max-height: 350px;
     height: 90%;
     width: 90%;
     transition: height 2s, width 2s;
     &:hover{
-        border: 2px solid $colior_brd_hv;
-        max-width: 800px;
-        max-height: 400px;
-        height: 100%;
-        width: 100%;
+        border: 2px solid map-get($estilos,colior_brd_hv);
+        max-width: 705px;
+        max-height: 355px;
+        height: 91%;
+        width: 91%;
     }
 }
 
@@ -101,28 +101,29 @@ form{
 
 
 .fb, .ig, .pint{
-    color: $color_link;
+    color: map-get($estilos, color_link);
     padding:20px;
     &:hover{
-        color: $color_link_hv;
+        color: map-get($estilos, color_link_hv);
         font-weight: bold;
     }
 }
 
-.btn-primary{
-    @include buttons ($font_wt: normal, $bck_color: $color_hd_ft ,$color: $color_link);
+.btn-primary{ 
+    // @include buttons (normal, black, white);
+    @include buttons;
     
     &:hover{
-        @include buttons ($font_wt: bold, $bck_color: $color_link_hv ,$color: $color_hd_ft);
-        
+        @include buttons_hv;
+               
          }
 
-}
+} 
 
 #foto1{
     grid-area: foto1;
     display: flex;
-    object-fit:cover;
+    object-fit:none;
     align-items: center;
     justify-content: center;
 }
@@ -175,7 +176,7 @@ form{
 
 
 .border{
-    border: 1px solid $color_brd;
+    border: 1px solid map-get($estilos, color_brd);
 }
 
 .logo{

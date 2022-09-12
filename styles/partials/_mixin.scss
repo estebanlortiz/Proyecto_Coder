@@ -1,6 +1,20 @@
-@mixin buttons($font_wt,$bck_color,$color){
+@mixin buttons{
     font-size: 15px;
-    border-color: $color_link;
+    border-color: map-get($estilos,color_link);
+    background-color: map-get($estilos, color_hd_ft);
+    color: map-get($estilos,color_link);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@mixin buttons_hv{
+    font-size: 15px;
+    border-color: map-get($estilos,color_hd_ft);
+    background-color: map-get($estilos, color_link_hv);
+    color: map-get($estilos,color_link);
     width: 100px;
     height: 40px;
     border-radius: 10px;
