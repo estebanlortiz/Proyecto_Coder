@@ -85,7 +85,7 @@ footer{
     max-height: 350px;
     height: 90%;
     width: 90%;
-    transition: height 2s, width 2s;
+    transition: height 1s, width 1s;
     &:hover{
         border: 2px solid map-get($estilos,colior_brd_hv);
         max-width: 705px;
@@ -110,11 +110,10 @@ form{
 }
 
 .btn-primary{ 
-    // @include buttons (normal, black, white);
-    @include buttons;
+    @include buttons(normal,map-get($estilos,color_hd_ft),map-get($estilos,color_link));
     
     &:hover{
-        @include buttons_hv;
+        @include buttons(bold,map-get($estilos, color_link_hv),map-get($estilos,color_hd_ft));
                
          }
 
@@ -199,5 +198,6 @@ p{
     font-size: 15px;
     line-height: 1cm;
     margin: 5 px auto;
+   
 }
 

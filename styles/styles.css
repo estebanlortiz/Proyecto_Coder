@@ -140,7 +140,7 @@ footer {
   max-height: 350px;
   height: 90%;
   width: 90%;
-  transition: height 2s, width 2s;
+  transition: height 1s, width 1s;
 }
 .shampoo:hover, .blog:hover, .acond:hover, .tratamiento:hover, .index:hover {
   border: 2px solid rgb(0, 0, 0);
@@ -164,6 +164,7 @@ form {
 }
 
 .btn-primary {
+  font-weight: normal;
   font-size: 15px;
   border-color: rgb(86, 84, 84);
   background-color: rgb(194, 208, 135);
@@ -175,10 +176,11 @@ form {
   margin: 10px;
 }
 .btn-primary:hover {
+  font-weight: bold;
   font-size: 15px;
-  border-color: rgb(194, 208, 135);
+  border-color: rgb(86, 84, 84);
   background-color: rgb(113, 39, 182);
-  color: rgb(86, 84, 84);
+  color: rgb(194, 208, 135);
   width: 100px;
   height: 40px;
   border-radius: 10px;
