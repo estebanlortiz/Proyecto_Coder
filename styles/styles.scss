@@ -47,8 +47,7 @@ header{
             font-weight: bold;
             text-decoration: underline;
             color: map-get($estilos,color_link_hv);
-        
-       }
+    }
 }
     
  
@@ -188,6 +187,6 @@ p{
    
 }
 .col-sm-2, .col-lg-2, .col-sm-1, .col-sm-3{
-    border: 1px solid black;
+border: 1px solid map-get($estilos, color_brd);
 }
 
