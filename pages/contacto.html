@@ -15,7 +15,7 @@
    </head>
 <body>
     <header class="border">
-        <div class="container text-center">
+        <div class="container text-centerr">
             
             <div class= "row">
                     <div class="col-sm-2 col-lg-2"> <h2 class=" logo"> ByR</h2></div>
@@ -29,59 +29,60 @@
         </div>
     </header>
 
-    <h2> Formulario de Contacto</h2>
+    <div class="container text-center"></div>
+        <div class="row">
+            <div class="col-sm-4 text-center">
+               
+                <h2 id="contacto"> Contactate con Nosotros</h2>
+            </div>
+            <div class="col-sm-8">
+                <form action="mailto: estebanl.ortiz@gmail.com" >
+                    <div>
+                        <label for="nombre">Nombre</label> <br>
+                        <input type="text" id="nombre">
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido</label> <br>
+                        <input type="text" id="apellido">
+                    </div>
+                    <div>
+                        <label for="email">Mail</label> <br>
+                        <input type="text" id="email">
+                    </div>
+                    <div>
+                        <label for="pais">De Donde sos?</label> <br>
+                        <select id="pais" name="pais">
+                            <option value="arg">Argentina</option>
+                            <option value="br">Brasil</option>
+                            <option value="ur">Uruguay</option>
+                            <option value="ch">Chile</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="producto">Que te interesa?</label> <br>
+                        <select id="producto" name="producto">
+                            <option value="sha">Shampoo</option>
+                            <option value="aco">Acondicionador</option>
+                            <option value="tra">Tratamientos</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="comentarios">Contanos que estas buscando</label> <br>
+                        <textarea name="comentarios" id="comentarios" cols="100" rows="20"></textarea>
+                    </div>
+                    <div>
+                        <input type="button" class="btn btn-primary" name="enviar" id="enviar" value="Enviar">
+                        <input type="button" class="btn btn-primary" id="cancelar" value="Cancelar">
+                    </div>
+            
+                </form>
+            </div>
 
-    <form action="mailto: estebanl.ortiz@gmail.com" >
-        <div>
-            <label for="nombre">Nombre</label> <br>
-            <input type="text" id="nombre">
-        </div>
-        <div>
-            <label for="apellido">Apellido</label> <br>
-            <input type="text" id="apellido">
-        </div>
-        <div>
-            <label for="domicilio">Domicilio  Calle</label> <br>
-            <input type="text" id="domicilio">
-        </div>
-        <div>
-            <label for="numero">Numero</label> <br>
-            <input type="text" id="numero">
-        </div>
-        <div>
-             <label for="localidad"> Localidad</label> <br>
-            <input type="text" id="localidad">
-        </div>
-        <div>
-            <label for="provincia">Provincia</label> <br>
-            <input type="text" id="provincia">
-        </div>
-        <div>
-            <label for="pais">Pais</label> <br>
-            <select id="pais" name="pais">
-                <option value="arg">Argentina</option>
-                <option value="br">Brasil</option>
-                <option value="ur">Uruguay</option>
-                <option value="ch">Chile</option>
-            </select>
-        </div>
-        <div>
-            <label for="sexo">Sexo</label> <br>
-            <label>M</label>
-            <input type="radio" id="sexo" name="sexo">
-            <label>F</label>
-            <input type="radio" id="sexo" name="sexo">       
-        </div>
-        <div>
-            <label for="comentarios">Comentarios</label> <br>
-            <textarea name="comentarios" id="comentarios" cols="100" rows="20"></textarea>
-        </div>
-        <div>
-            <input type="button" class="btn btn-primary" name="enviar" id="enviar" value="Enviar">
-            <input type="button" class="btn btn-primary" id="cancelar" value="Cancelar">
         </div>
 
-    </form>
+    
+ 
 
     <footer class="border">
         <a href="https://www.facebook.com" class="fb">

@@ -25,6 +25,7 @@ h2{
      font-family: map-get($estilos,font);
      font-size: 20px;     
      font-weight: bold;
+        ;
 }
 
 
@@ -101,6 +102,9 @@ form{
         @include buttons(bold,map-get($estilos, color_link_hv),map-get($estilos,color_hd_ft));
                
          }
+    &:active{
+        @include buttons(normal,map-get($estilos,color_hd_ft),map-get($estilos,color_link));  
+    }
 
 } 
 
@@ -188,5 +192,23 @@ p{
 }
 .col-sm-2, .col-lg-2, .col-sm-1, .col-sm-3{
 border: 1px solid map-get($estilos, color_brd);
+}
+
+textarea{
+    width: 500px;
+    height: 700px;
+    background-color:map-get($estilos,color_frm);
+}
+
+#contacto{
+    background-color: map-get($estilos,color_link_hv);
+    color: map-get($estilos, color_hd_ft );
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#nombre, #apellido, #email, #pais, #producto{
+    background-color:map-get($estilos,color_frm); 
 }
 
