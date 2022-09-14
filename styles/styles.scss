@@ -38,30 +38,16 @@ header{
 }
 
 .navegacion{
-    @extend %flex_nv;
     width: 90px;
     height: 50px;
-    ul{
-        display: flex;
-        li{
-            width: 150px; 
-            height: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            align-content:space-between;
-            justify-content:space-evenly;
-    
-        }
-    }
-    a{
-        font-size: 15px;
-        font-weight: bold;
-        color: map-get($estilos,color_link);
-        &:hover{
+    font-size: 13px;
+    font-weight: bold;
+    color: map-get($estilos,color_link);
+    &:hover{
             font-weight: bold;
             text-decoration: underline;
             color: map-get($estilos,color_link_hv);
-        }
+        
        }
 }
     
@@ -180,11 +166,11 @@ form{
 }
 
 .logo{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: left;
-    justify-content: left;
+    // display:flex;
+    // flex-wrap: wrap;
+    // flex-direction: column;
+    // align-content: left;
+    // justify-content: left;
     animation-name: efecto_logo;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -200,5 +186,8 @@ p{
     line-height: 1cm;
     margin: 5 px auto;
    
+}
+.col-sm-2, .col-lg-2, .col-sm-1, .col-sm-3{
+    border: 1px solid black;
 }
 
