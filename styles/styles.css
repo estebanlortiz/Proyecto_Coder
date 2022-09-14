@@ -264,17 +264,21 @@ textarea {
   width: 500px;
   height: 700px;
   background-color: rgb(232, 235, 211);
+  border: 1px solid;
+  border-color: rgb(194, 208, 135);
 }
 
 #contacto {
   background-color: rgb(113, 39, 182);
   color: rgb(194, 208, 135);
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 5px;
 }
 
 #nombre, #apellido, #email, #pais, #producto {
   background-color: rgb(232, 235, 211);
+  border: 1px solid;
+  border-color: rgb(176, 175, 175);
 }/*# sourceMappingURL=styles.css.map */
