@@ -6,12 +6,6 @@
   text-decoration: none;
 }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-end;
-}
-
 @-webkit-keyframes efecto_logo {
   0% {
     font-size: 30px;
@@ -74,13 +68,13 @@ footer {
 }
 body {
   background-image: linear-gradient(to right, rgb(228, 228, 192), rgb(150, 150, 135));
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   font-size: 13px;
   color: rgb(86, 84, 84);
 }
 
 h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
@@ -97,13 +91,13 @@ header {
   width: 90px;
   height: 50px;
   font-size: 13px;
-  font-weight: bold;
-  color: rgb(86, 84, 84);
+  font-weight: bolder;
+  color: rgb(113, 39, 182);
 }
 .navegacion:hover {
   font-weight: bold;
   text-decoration: underline;
-  color: rgb(113, 39, 182);
+  color: rgb(86, 84, 84);
 }
 
 footer {
@@ -111,7 +105,8 @@ footer {
   top: 0;
   width: 100%;
   height: 100%;
-  grid-area: footer;
+  margin: 0px;
+  padding: 0px;
 }
 footer p {
   margin-top: 10px;
@@ -226,19 +221,6 @@ form {
   align-content: center;
 }
 
-#grilla_idx {
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "header header header" "foto1 foto1 txt1" "txt2 foto2  foto2" "footer footer footer";
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-}
-#grilla_idx footer {
-  justify-content: center;
-  align-content: center;
-}
-
 .border {
   border: 1px solid rgb(176, 175, 175);
 }
@@ -291,4 +273,11 @@ textarea {
 
 .form::-webkit-scrollbar-thumb {
   background: rgb(113, 39, 182);
+}
+
+.fondo {
+  background-color: rgb(113, 39, 182);
+  margin-top: 10px;
+  padding: 0px;
+  height: 20px;
 }/*# sourceMappingURL=styles.css.map */
