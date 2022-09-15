@@ -35,7 +35,7 @@ header{
     font-size: 1.125em;
     justify-content: space-around;
     grid-area: header;
-                 
+                     
 }
 
 .navegacion{
@@ -49,9 +49,9 @@ header{
             text-decoration: underline;
             color: map-get($estilos,color_link_hv);
     }
+    
 }
     
- 
   
 
 footer{
@@ -61,6 +61,12 @@ footer{
     width:100%;
     height: 100%;
     grid-area: footer;
+    p{
+        // padding:20px;
+        margin-top: 10px;
+        color: map-get($estilos, color_link_hv);
+        font-weight:549;
+    }
  } 
 
 
@@ -87,10 +93,11 @@ form{
 
 
 .fb, .ig, .pint{
-    color: map-get($estilos, color_link);
-    padding:20px;
+    color: map-get($estilos, color_link_hv);
+    padding-top: 20px;
+    font-weight: 549;
     &:hover{
-        color: map-get($estilos, color_link_hv);
+        color: map-get($estilos, color_link);
         font-weight: bold;
     }
 }
@@ -188,11 +195,12 @@ p{
     font-size: 15px;
     line-height: 1cm;
     margin: 5 px auto;
-   
 }
-.col-sm-2, .col-lg-2, .col-sm-1, .col-sm-3{
-border: 1px solid map-get($estilos, color_brd);
-}
+// }
+// .col-sm-2, .col-lg-2, .col-sm-1, .col-sm-3, .col-sm-9{
+//     border: 1px solid map-get($estilos, color_brd);
+//     align-items: center;
+// }
 
 textarea{
     width: 500px;
@@ -210,6 +218,7 @@ textarea{
     margin-top: 30px;
     margin-left: 5px;
 }
+
 #nombre, #apellido, #email, #pais, #producto{
     background-color:map-get($estilos,color_frm); 
     border: 1px solid;

@@ -113,6 +113,11 @@ footer {
   height: 100%;
   grid-area: footer;
 }
+footer p {
+  margin-top: 10px;
+  color: rgb(113, 39, 182);
+  font-weight: 549;
+}
 
 .shampoo, .blog, .acond, .tratamiento, .index {
   margin: 10px;
@@ -136,11 +141,12 @@ form {
 }
 
 .fb, .ig, .pint {
-  color: rgb(86, 84, 84);
-  padding: 20px;
+  color: rgb(113, 39, 182);
+  padding-top: 20px;
+  font-weight: 549;
 }
 .fb:hover, .ig:hover, .pint:hover {
-  color: rgb(113, 39, 182);
+  color: rgb(86, 84, 84);
   font-weight: bold;
 }
 
@@ -256,10 +262,6 @@ p {
   margin: 5 px auto;
 }
 
-.col-sm-2, .col-lg-2, .col-sm-1, .col-sm-3 {
-  border: 1px solid rgb(176, 175, 175);
-}
-
 textarea {
   width: 500px;
   height: 700px;
@@ -281,4 +283,12 @@ textarea {
   background-color: rgb(232, 235, 211);
   border: 1px solid;
   border-color: rgb(176, 175, 175);
+}
+
+.form::-webkit-scrollbar {
+  width: 7px;
+}
+
+.form::-webkit-scrollbar-thumb {
+  background: rgb(113, 39, 182);
 }/*# sourceMappingURL=styles.css.map */
