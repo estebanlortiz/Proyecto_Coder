@@ -215,4 +215,11 @@ textarea{
     border: 1px solid;
     border-color: map-get($estilos, color_brd );
 }
+.form::-webkit-scrollbar{
+    width: 7px;
+}
+
+.form::-webkit-scrollbar-thumb{
+    background: map-get($estilos, color_link_hv );
+}
 
