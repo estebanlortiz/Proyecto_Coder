@@ -73,7 +73,7 @@ body {
   color: rgb(86, 84, 84);
 }
 
-h2 {
+h1, h2 {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -280,4 +280,25 @@ textarea {
   margin-top: 10px;
   padding: 0px;
   height: 20px;
+}
+
+.pie {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(113, 39, 182);
+}
+.pie:hover {
+  color: rgb(86, 84, 84);
+}
+
+.mapa {
+  margin-bottom: 50px;
+}
+.mapa a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(113, 39, 182);
+}
+.mapa a:hover {
+  color: rgb(86, 84, 84);
 }/*# sourceMappingURL=styles.css.map */

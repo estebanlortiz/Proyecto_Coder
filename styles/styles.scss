@@ -21,7 +21,9 @@ body{
 
 }
 
-h2{
+
+
+h1, h2{
      font-family: map-get($estilos,font);
      font-size: 20px;
      font-weight: bold;
@@ -238,4 +240,25 @@ textarea{
     margin-top:10px;
     padding:0px;
     height: 20px;
+}
+
+.pie{
+    text-decoration: none;
+    font-size: 15px;
+    color: map-get($estilos, color_link_hv );
+    &:hover{
+        color: map-get($estilos, color_link )
+    }
+}
+
+.mapa{
+    margin-bottom: 50px;;
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        color: map-get($estilos, color_link_hv );
+        &:hover{
+            color: map-get($estilos, color_link )  
+    };
+}
 }
