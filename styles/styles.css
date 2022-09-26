@@ -68,22 +68,13 @@
 }
 body {
   background-image: linear-gradient(to right, rgb(228, 228, 192), rgb(150, 150, 135));
-<<<<<<< HEAD
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-=======
   font-family: Verdana, Tahoma, sans-serif;
->>>>>>> tpfinalprueba
   font-size: 13px;
   color: rgb(86, 84, 84);
 }
 
-<<<<<<< HEAD
-h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-=======
 h1, h2 {
   font-family: Verdana, Tahoma, sans-serif;
->>>>>>> tpfinalprueba
   font-size: 20px;
   font-weight: bold;
 }
@@ -97,37 +88,6 @@ header {
 }
 
 .navegacion {
-<<<<<<< HEAD
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 90px;
-  height: 50px;
-}
-.navegacion ul {
-  display: flex;
-}
-.navegacion ul li {
-  width: 150px;
-  height: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-evenly;
-}
-.navegacion a {
-  font-size: 15px;
-  font-weight: bold;
-  color: rgb(86, 84, 84);
-}
-.navegacion ahover {
-  font-weight: bold;
-  text-decoration: underline;
-  color: rgb(113, 39, 182);
-}
-.navegacion aactive {
-  font-weight: bold;
-=======
   width: 90px;
   height: 50px;
   font-size: 13px;
@@ -138,20 +98,10 @@ header {
   font-weight: bold;
   text-decoration: underline;
   color: rgb(86, 84, 84);
->>>>>>> tpfinalprueba
 }
 
 footer {
   background-color: rgb(194, 208, 135);
-<<<<<<< HEAD
-  display: flex;
-  flex-direction: row;
-  align-content: flex-end;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  grid-area: footer;
-=======
   top: 0;
   width: 100%;
   height: 100%;
@@ -162,7 +112,6 @@ footer p {
   margin-top: 10px;
   color: rgb(113, 39, 182);
   font-weight: 549;
->>>>>>> tpfinalprueba
 }
 
 .shampoo, .blog, .acond, .tratamiento, .index {
@@ -172,16 +121,6 @@ footer p {
   max-height: 350px;
   height: 90%;
   width: 90%;
-<<<<<<< HEAD
-  transition: height 2s, width 2s;
-}
-.shampoohover, .bloghover, .acondhover, .tratamientohover, .indexhover {
-  border: 2px solid rgb(0, 0, 0);
-  max-width: 800px;
-  max-height: 400px;
-  height: 100%;
-  width: 100%;
-=======
   transition: height 1s, width 1s;
 }
 .shampoo:hover, .blog:hover, .acond:hover, .tratamiento:hover, .index:hover {
@@ -190,7 +129,6 @@ footer p {
   max-height: 355px;
   height: 91%;
   width: 91%;
->>>>>>> tpfinalprueba
 }
 
 form {
@@ -198,44 +136,16 @@ form {
 }
 
 .fb, .ig, .pint {
-<<<<<<< HEAD
-  color: rgb(86, 84, 84);
-  padding: 20px;
-}
-.fbhover, .ighover, .pinthover {
-  color: rgb(113, 39, 182);
-=======
   color: rgb(113, 39, 182);
   padding-top: 20px;
   font-weight: 549;
 }
 .fb:hover, .ig:hover, .pint:hover {
   color: rgb(86, 84, 84);
->>>>>>> tpfinalprueba
   font-weight: bold;
 }
 
 .btn-primary {
-<<<<<<< HEAD
-  background-color: rgb(194, 208, 135);
-  color: rgb(86, 84, 84);
-  font-size: 15px;
-  border-color: rgb(86, 84, 84);
-  width: 100px;
-  height: 40px;
-}
-.btn-primaryhover {
-  font-weight: bold;
-  background-color: rgb(113, 39, 182);
-  color: rgb(194, 208, 135);
-}
-
-#foto1 {
-  grid-area: foto1;
-  display: flex;
-  -o-object-fit: cover;
-     object-fit: cover;
-=======
   font-weight: normal;
   font-size: 15px;
   border-color: rgb(86, 84, 84);
@@ -276,16 +186,11 @@ form {
   display: flex;
   -o-object-fit: none;
      object-fit: none;
->>>>>>> tpfinalprueba
   align-items: center;
   justify-content: center;
 }
 
 #foto2 {
-<<<<<<< HEAD
-  grid-area: foto2;
-=======
->>>>>>> tpfinalprueba
   display: flex;
   -o-object-fit: contain;
      object-fit: contain;
@@ -294,20 +199,6 @@ form {
 }
 
 #txt1 {
-<<<<<<< HEAD
-  grid-area: txt1;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-#txt1 p {
-  align-content: center;
-}
-
-#txt2 {
-  grid-area: txt2;
-=======
   display: flex;
   flex-wrap: wrap;
   align-items: left;
@@ -315,7 +206,6 @@ form {
 }
 
 #txt2 {
->>>>>>> tpfinalprueba
   display: flex;
   align-items: center;
   justify-items: center;
@@ -324,36 +214,11 @@ form {
   align-content: center;
 }
 
-<<<<<<< HEAD
-#grilla_idx {
-  /* margin: 10px auto; */
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "header header header" "foto1 foto1 txt1" "txt2 foto2  foto2" "footer footer footer";
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-}
-#grilla_idx footer {
-  justify-content: center;
-  align-content: center;
-}
-
-=======
->>>>>>> tpfinalprueba
 .border {
   border: 1px solid rgb(176, 175, 175);
 }
 
 .logo {
-<<<<<<< HEAD
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: left;
-  justify-content: left;
-=======
->>>>>>> tpfinalprueba
   -webkit-animation-name: efecto_logo;
           animation-name: efecto_logo;
   -webkit-animation-iteration-count: infinite;
@@ -365,21 +230,11 @@ form {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
-<<<<<<< HEAD
-.logohover {
-  font-size: 30px;
-  font-style: oblique;
-  color: rgb(176, 175, 175);
-}
-=======
->>>>>>> tpfinalprueba
 
 p {
   font-size: 15px;
   line-height: 1cm;
   margin: 5 px auto;
-<<<<<<< HEAD
-=======
   align-items: left;
 }
 
@@ -432,5 +287,4 @@ textarea {
 }
 .mapa a:hover {
   color: rgb(86, 84, 84);
->>>>>>> tpfinalprueba
 }/*# sourceMappingURL=styles.css.map */
