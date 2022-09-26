@@ -183,7 +183,6 @@ form {
 }
 
 #foto1 {
-  grid-area: foto1;
   display: flex;
   -o-object-fit: none;
      object-fit: none;
@@ -192,7 +191,6 @@ form {
 }
 
 #foto2 {
-  grid-area: foto2;
   display: flex;
   -o-object-fit: contain;
      object-fit: contain;
@@ -201,18 +199,13 @@ form {
 }
 
 #txt1 {
-  grid-area: txt1;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-#txt1 p {
-  align-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
 #txt2 {
-  grid-area: txt2;
   display: flex;
   align-items: center;
   justify-items: center;
@@ -242,6 +235,7 @@ p {
   font-size: 15px;
   line-height: 1cm;
   margin: 5 px auto;
+  align-items: left;
 }
 
 textarea {
@@ -267,14 +261,6 @@ textarea {
   border-color: rgb(176, 175, 175);
 }
 
-.form::-webkit-scrollbar {
-  width: 7px;
-}
-
-.form::-webkit-scrollbar-thumb {
-  background: rgb(113, 39, 182);
-}
-
 .fondo {
   background-color: rgb(113, 39, 182);
   margin-top: 10px;
@@ -292,7 +278,7 @@ textarea {
 }
 
 .mapa {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .mapa a {
   text-decoration: none;
