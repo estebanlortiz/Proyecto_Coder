@@ -21,9 +21,20 @@ body{
 
 }
 
+<<<<<<< HEAD
+h1{
+    font-size: 0px;
+    background-color: map-get($estilos,color_hd_ft);
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+=======
 
 
 h1, h2{
+>>>>>>> tpfinalprueba
      font-family: map-get($estilos,font);
      font-size: 20px;
      font-weight: bold;
